@@ -13,6 +13,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
+          persist-credentials: false
       - name: Install Knope
         uses: knope-dev/action@f694bf4663f7c20743102e732728d676b2ab95db # v1
         with:
